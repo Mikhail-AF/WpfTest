@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Выполнить" HorizontalAlignment="Left" Height="28" Margin="661,367,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="93,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="684" Text="C:\TEMP\Assemblies"/>
+        <Label Content="Путь к папке: " HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" VerticalAlignment="Top" Width="83"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="301" Margin="10,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="767"/>
+
+
+
+    </Grid>
+</Window>
